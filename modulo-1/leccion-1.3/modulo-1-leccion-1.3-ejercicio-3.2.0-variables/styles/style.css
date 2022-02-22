@@ -1,0 +1,53 @@
+:root {
+  --brand-color: orange;
+  --title-color: pink;
+  --size-padding: 20px;
+  --size-margin: 0px;
+}
+/*Escribe aquí tu código*/
+
+body {
+  margin: var(--size-margin);
+}
+
+header {
+  background-color: #eaeaea;
+  padding: var(--size-padding);
+}
+
+main {
+  padding: var(--size-padding);
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--title-color);
+  margin: var(--size-margin);
+}
+
+.subtitle {
+  color: var(--title-color);
+  margin: var(--size-margin);
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+p a {
+  color: var(--brand-color);
+}
